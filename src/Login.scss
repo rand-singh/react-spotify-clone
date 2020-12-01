@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: black;
+  background-color: #1d1d1b;
 
   > img {
     width: 192px;
@@ -18,10 +18,25 @@
   a {
     padding: 20px 30px;
     border-radius: 50px;
-    background-color: #1db954;
+    background-color: #1aa34a;
     color: white;
     font-weight: 800;
     text-decoration: none;
     margin-bottom: 20px;
+
+    transition-property: background-color;
+    transition-duration: 0.3s;
+
+    &:hover {
+      background-color: #1ed760;
+    }
+
+    &:active {
+      background-color: #1aa34a;
+    }
+
+    &f:focus {
+      background-color: #1aa34a;
+    }
   }
 }
