@@ -2,10 +2,50 @@
 
 .footer {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   bottom: 0;
   border: 1px solid $black;
   width: 100%;
-  height: 65px;
+  height: 85px;
   background-color: #282828;
   padding: 20px;
+
+  &__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    max-width: 300px;
+  }
+
+  &__albumLogo {
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+
+  &__center {
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 450px;
+  }
+
+  &__right {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    .MuiGrid-item {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
