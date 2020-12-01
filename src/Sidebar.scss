@@ -1,0 +1,16 @@
+@import "./scss-variables.scss";
+
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  min-width: 230px;
+  padding: 0 10px;
+  background-color: #040404;
+  color: white;
+
+  &__logo {
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+  }
+}
