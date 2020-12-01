@@ -46,7 +46,7 @@
     .footer__icon:hover {
       fill: #1ed15e;
       transform: scale(1.2);
-      transition: transform 0.2s ease-in;
+      transition: transform 0.1s ease-in;
     }
   }
 
@@ -60,6 +60,10 @@
     .MuiGrid-item {
       display: flex;
       align-items: center;
+    }
+
+    .MuiSlider-root {
+      color: white;
     }
   }
 
