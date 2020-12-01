@@ -10,7 +10,7 @@ import { useDataLayerValue } from './DataLayer';
 function Sidebar() {
     // pull from the datalayer
     const [{playlists}, dispatch] = useDataLayerValue();
-    console.log(playlists);
+    
 
     return (
         <div className="sidebar">
