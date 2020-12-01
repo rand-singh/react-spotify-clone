@@ -1,4 +1,6 @@
 .sidebarOption {
+  display: flex;
+  align-items: center;
   color: grey;
   height: 40px;
   cursor: pointer;
@@ -6,5 +8,15 @@
 
   &:hover {
     color: white;
+  }
+
+  &__icon {
+    margin: 0 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
   }
 }
