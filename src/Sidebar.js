@@ -9,7 +9,7 @@ import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
     // pull from the datalayer
-    const [{playlists}, dispatch] = useDataLayerValue();
+    const [{playlists}] = useDataLayerValue();
     
 
     return (
